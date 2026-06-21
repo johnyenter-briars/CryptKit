@@ -1,9 +1,7 @@
 <h1>
-  <img src="resources/cryptkit.png" width="100" alt="CryptKit icon" align="center">
+  <img src="https://raw.githubusercontent.com/johnyenter-briars/CryptKit/refs/heads/master/resources/cryptkit.png" width="100" alt="CryptKit icon" align="center">
   CryptKit
 </h1>
-
----
 
 CryptKit encrypts and decrypts full files in VS Code.
 
