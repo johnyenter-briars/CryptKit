@@ -1,7 +1,7 @@
-<div style="display: flex; align-items: center; gap: 16px;">
-  <img src="https://raw.githubusercontent.com/johnyenter-briars/CryptKit/refs/heads/master/resources/cryptkit.png" width="100" alt="CryptKit icon">
-  <h1 style="margin: 10;">CryptKit</h1>
-</div>
+<h1 align="left">CryptKit
+  <img align="left" src="https://raw.githubusercontent.com/johnyenter-briars/CryptKit/refs/heads/master/resources/cryptkit.png" alt="CryptKit app icon" style="height: 1.5em;" />
+</h1>
+
 
 CryptKit encrypts and decrypts full files in VS Code.
 
