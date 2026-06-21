@@ -34,7 +34,7 @@
     "test": "node test/crypto.test.js"
   },
   "devDependencies": {
-    "@types/node": "^20.14.8",
+    "@types/node": "^20.19.43",
     "@types/vscode": "^1.90.0",
     "@vscode/vsce": "^3.0.0",
     "typescript": "^5.5.2"
