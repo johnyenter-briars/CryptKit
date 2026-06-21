@@ -3,7 +3,7 @@
   "displayName": "CryptKit",
   "description": "Encrypts and decrypts files in VS Code.",
   "version": "0.1.0",
-  "publisher": "cryptkit",
+  "publisher": "jyb",
   "repository": {
     "type": "git",
     "url": "https://github.com/johnyenter-briars/CryptKit"
