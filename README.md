@@ -1,15 +1,20 @@
-# CryptKit
+<h1>
+  <img src="resources/cryptkit.png" width="100" alt="CryptKit icon" align="center">
+  CryptKit
+</h1>
+
+---
 
 CryptKit encrypts and decrypts full files in VS Code.
 
-This extension is a modern replacement for an older file encryption extension.
-It keeps the same command titles and password prompts, but uses authenticated
-encryption for new encrypted content.
+Encrypted output is written back to replace the file.
 
-Encrypted output is written back as a plain hex ciphertext string, with no
-wrapper payload.
+## Commands
 
-Crypto details for external tools:
+- `encryptfile` encrypts the entire current document.
+- `decryptfile` decrypts the entire current document.
+
+## Encryption Details
 
 - Algorithm: AES-256-CBC
 - Ciphertext encoding: hex
@@ -37,12 +42,4 @@ To reproduce the IV in another tool:
 4. Take the first 16 raw bytes of the SHA-256 hash.
 5. Use those 16 bytes as the AES-256-CBC IV.
 
-The encrypted file only contains the hex ciphertext. To decrypt outside VS Code,
-the external tool must recreate the same key and IV from the password.
-
-## Commands
-
-- `encryptfile` encrypts the entire current document.
-- `decryptfile` decrypts the entire current document.
-
-Encryption prompts for the password twice. Decryption prompts once.
+The encrypted file only contains the hex ciphertext. To decrypt outside VS Code, the external tool must recreate the same key and IV from the password.

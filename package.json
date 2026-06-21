@@ -4,6 +4,7 @@
   "description": "Encrypts and decrypts files in VS Code.",
   "version": "0.1.0",
   "publisher": "cryptkit",
+  "icon": "resources/cryptkit.png",
   "engines": {
     "vscode": "^1.90.0"
   },
