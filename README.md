@@ -41,3 +41,19 @@ To reproduce the IV in another tool:
 5. Use those 16 bytes as the AES-256-CBC IV.
 
 The encrypted file only contains the hex ciphertext. To decrypt outside VS Code, the external tool must recreate the same key and IV from the password.
+
+## AI Disclosure
+- AI was used for sections of code and resources for this tool.
+- All code was reviewed and tested by maintainers. 
+
+## License
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
+
+## Contact
+- [Open an Issue](https://github.com/johnyenter-briars/CryptKit/issues)
+- [Project Link](https://github.com/johnyenter-briars/CryptKit)
+
+## Contributing
+- Contributions are most welcome.
+- *But*, issues, fixes and feature requests are **not** guaranteed.
+- **Use at your own risk: This software is provided "as is," without warranty of any kind, express or implied. Use it at your own discretion and responsibility.**
