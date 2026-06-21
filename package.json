@@ -1,0 +1,42 @@
+{
+  "name": "cryptkit",
+  "displayName": "CryptKit",
+  "description": "Encrypts and decrypts files in VS Code.",
+  "version": "0.1.0",
+  "publisher": "cryptkit",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cryptkit.encryptFile",
+        "title": "encryptfile",
+        "category": "CryptKit"
+      },
+      {
+        "command": "cryptkit.decryptFile",
+        "title": "decryptfile",
+        "category": "CryptKit"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "build": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package",
+    "test": "node test/crypto.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "@types/vscode": "^1.90.0",
+    "@vscode/vsce": "^3.0.0",
+    "typescript": "^5.5.2"
+  }
+}
